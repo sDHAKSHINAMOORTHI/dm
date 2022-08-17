@@ -1,0 +1,95 @@
+keywords
+  1. keywords are the reserved words in python.
+  2. we vannot use a keyword as  a variable name,
+  3.  function name or any other identifier.
+  4.  keywords are case sensitive in python
+
+1.and -------->
+
+if 5 > 3 and 5 < 10:
+  print("Both statements are True")
+else:
+  print("At least one of the statements are False")
+
+2. or-------->
+if 5 > 3 or 5 > 10:
+  print("At least one of the statements are True")
+else:
+  print("None of the statements are True")
+
+3. assert .......>
+   syntax:
+      assert<condition>
+             (or)
+	assert<condition>,<error message>
+
+    ex:
+	a=int(input("enter the number"))
+	assert(a>0)
+	print("hello")
+
+4. 
+      def ----->to fine the function
+	
+	def myname():
+		a=10
+		b=20
+		print(a+b)
+      myname()
+
+5. del
+
+x = ["apple", "banana", "cherry"]
+
+del x[0]
+
+print(x)
+
+
+6.import
+
+import datetime
+
+x = datetime.datetime.now()
+
+print(x)
+
+
+7.From
+
+from operator import add
+
+print(add(10, 20))
+
+---**----
+from operator import sub
+
+print(sub(10, 5))
+
+____**____
+
+from operator import add, sub
+
+print("Enter the Two Numbers: ", end="")
+a = int(input())
+b = int(input())
+
+print("\nAddition =", add(a, b))
+print("Subtraction =", sub(a, b))
+_____________
+8.if
+9.else
+10.elif
+11.while
+12.dowhile
+13.for
+
+a=float(input("enter the number"))
+assert(a>0)
+print("hello")
+
+
+
+
+	
+  	
